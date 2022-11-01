@@ -4,14 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Css/memu.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">    <link rel="stylesheet" href="../Css/memu.css">
     <title>MEMU GAMES</title>
 </head>
 <body>
     <header>
-        <div class="p-3 mb-2 bg-dark text-white">
-            <div class="titulo"> WELCOME MEMU GAMES </div>
-        </div>
+      <nav class="navbar navbar-dark bg-dark">
+        <a class="navbar-brand" href="memu.html">WELCOME MEMU GAMES</a>
+        <form class="form-inline">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search roms, emulators, etc...." aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </nav>
 
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
@@ -40,30 +45,89 @@
             </button>
           </div>
 
-        <nav class="navbar navbar-dark bg-dark">
-            <a class="navbar-brand">WELCOME MEMU GAMES</a>
-            <form class="form-inline">
-              <input class="form-control mr-sm-2" type="search" placeholder="Search roms, emulators, etc...." aria-label="Search">
-              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-            </form>
-          </nav>
-    </header>
-    <section id="menuemulators">
-        <article>
-            <div class="menu">   
-                <div class="p-2 mb-1 bg-secondary text-white"><li><a href="memu.html">Mame</a></li></div>
-                <div class="p-2 mb-1 bg-secondary text-white"><li><a href="memu.html">Nintendo</a></li></div>
-                <div class="p-2 mb-1 bg-secondary text-white"><li><a href="memu.html">Playstation</a></li></div>
-                <div class="p-2 mb-1 bg-secondary text-white"><li><a href="memu.html">Super Nintendo</a></li></div>
-                <div class="p-2 mb-1 bg-secondary text-white"><li><a href="memu.html">Super Nintendo</a></li></div>
-                <div class="p-2 mb-1 bg-secondary text-white"><li><a href="memu.html">Super Nintendo</a></li></div>
-                <div class="p-2 mb-1 bg-secondary text-white"><li><a href="memu.html">Super Nintendo</a></li></div>
-                <div class="p-2 mb-1 bg-secondary text-white"><li><a href="memu.html">Super Nintendo</a></li></div>
-                <div class="p-2 mb-1 bg-secondary text-white"><li><a href="memu.html">Super Nintendo</a></li></div>
-            </div>
-        </article>
-    </section>
 
+    </header>
+    <section class="contenedor">
+      <article id="emulatorlist">
+        <section>
+          <ul>
+            <div class="p-2 mb-1 bg-dark text-white">EMULATOR LIST</div>
+            <div class="p-2 mb-1 bg-warning text-dark"><a href="">GameBoy!</a></div>
+            <div class="p-2 mb-1 bg-warning text-dark"><a href="">GameBoy Advanced</a></div>
+            <div class="p-2 mb-1 bg-warning text-dark"><a href="">MAME</a></div>
+            <div class="p-2 mb-1 bg-warning text-dark"><a href="">Nintendo</a></div>
+            <div class="p-2 mb-1 bg-warning text-dark"><a href="">Nintendo 64</a></div>
+            <div class="p-2 mb-1 bg-warning text-dark"><a href="">Nintendo Gamecube</a></div>
+            <div class="p-2 mb-1 bg-warning text-dark"><a href="">Playstation</a></div>
+            <div class="p-2 mb-1 bg-warning text-dark"><a href="">Playstation 2</a></div>
+          </ul>
+        </section>
+
+      </article>
+      <article id="noticiasarticulo">
+          <header>
+              <h2 style="text-align: center;">MEMU GAMES</h2>
+          </header>
+          <section class="textoarticulo">
+              <h3>Selecciona tus juegos favoritos</h3>
+              <p>Referencias:</p>
+
+              <section class="container">
+                <div class="card">
+                    <div class="front">
+                        <img src="../images/gameboy advance.jpg">
+                        <P>GameBoy Advanced</P>
+                    </div>
+                    <div class="back">
+                        <img src="../images/crash gba256x254.jpg" alt="">
+                        <p>Crash Bandicoot - ntranced (gba)</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="front">
+                        <img src="../images/n64 consola.jpg" alt="">
+                        <p>Nintendo 64</p>
+                    </div>
+                    <div class="back">
+                        <img src="../images/zelda 64.jpg" alt="">
+                        <p>The Legend of Zelda - Ocarina of Time (N64)</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="front">
+                        <img src="../images/nes-nintendo.jpg" alt="">
+                        <p>Nintendo NES</p>
+                    </div>
+                    <div class="back">
+                        <img src="../images/mario nes.jpg" alt="">
+                        <p>Mario Bros (NES)</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="front">
+                        <img src="../images/sony-playstation-console.jpg" alt="">
+                        <p>Sony PlayStation</p>
+                    </div>
+                    <div class="back">
+                        <img src="../images/resident psx.jpg" alt="">
+                        <p>Resident Evil Survivor (PSX)</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="front">
+                        <img src="./images/card 5.jpg" alt="">
+                        <p>DRAGON NEGRO OJOS ROJOS</p>
+                    </div>
+                    <div class="back">
+                        <img src="./images/reverso card.jpg" alt="">
+                        <p>(?)</p>
+                    </div>
+                </div>
+            </section>
+
+          </section>
+      </article>
+    </section>
     <footer>
         <p>TODOS LOS DERECHOS RESERVADOS  2022</p>
     </footer> 
