@@ -21,7 +21,7 @@ body {
 
 #carouselExampleIndicators{
     width: 1000px;
-    margin: 15px 0 15px 15%;
+    margin: 15px auto;
     border: 8px solid rgb(53, 5, 5);
 }
 .menu{
