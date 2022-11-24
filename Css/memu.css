@@ -30,16 +30,19 @@ body {
 }
 #menuemulators{
     width: 20%;
-    margin: 0;
+    margin: auto;
 }
 
 article{
     margin: 15px 15px 15px 0px;
     float: left;
 }
-.container{
+.contenedor{
     background-color: #ffffff;
     border: 10px solid rgb(248, 132, 0);
+    margin: 0 auto;
+    width: 97%;
+    height: 770px;
 }
 #noticiasarticulo{
     width: 70%;
