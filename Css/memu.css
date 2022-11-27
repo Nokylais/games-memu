@@ -38,21 +38,41 @@ article{
     float: left;
 }
 .contenedor{
-    background-color: #ffffff;
-    border: 10px solid rgb(248, 132, 0);
-    margin: 0 auto;
-    width: 97%;
-    height: 770px;
+    background: #333;
+    border: 10px solid rgb(21, 137, 144);
+    margin: 10px auto;
+    width: 90%;
+    height: 750px;
+    color: white;
+}
+.contenedormenu{
+    background-color: #333;
+    border: 10px solid rgb(21, 137, 144);
+    margin: 10px auto;
+    width: 90%;
+    height: 850px;
+    color: white;
+}
+.contenedorcontacto{
+    background-color: #333;
+    border: 10px solid rgb(21, 137, 144);
+    margin: 10px auto;
+    width: 90%;
+    height: 700px;
+    color: white;
 }
 #noticiasarticulo{
     width: 70%;
-    border: 2.5px solid rgb(0, 0, 0);
+    border: 2.5px solid rgb(117, 45, 45);
     text-align: left;
-    margin
+    margin: 10px 10px;
 }
+
 .textoarticulo{
     margin: 0 2% 0 2%;
+    
 }
+
 #emulatorlist{
     width: 27%;
     
@@ -75,6 +95,8 @@ ul{
     width: 200px;
     position: relative;
     margin: 5px;
+    background-color: rgb(97, 45, 45);
+    text-align: center;
 }
 .card img{
     width: 100%;
@@ -102,10 +124,9 @@ ul{
 
 footer{
     height: 150px;
-    background: rgba(78, 64, 87, 0);
+    background: rgba(0, 0, 0, 0.504);
+    margin: 10px;
     text-align: center;
-}
-.pfooter{
     color: white;
 }
 .footer1{
