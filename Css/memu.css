@@ -20,7 +20,7 @@ body {
 
 
 #carouselExampleIndicators{
-    width: 1000px;
+    width: 800px;
     margin: 15px auto;
     border: 8px solid rgb(53, 5, 5);
 }
@@ -41,23 +41,23 @@ article{
     background: #333;
     border: 10px solid rgb(21, 137, 144);
     margin: 10px auto;
-    width: 90%;
+    width: 85%;
     height: 750px;
     color: white;
 }
 .contenedormenu{
     background-color: #333;
     border: 10px solid rgb(21, 137, 144);
-    margin: 10px auto;
-    width: 90%;
-    height: 850px;
+    margin: 20px auto;
+    width: 85%;
+    height: 1400px;
     color: white;
 }
 .contenedorcontacto{
     background-color: #333;
     border: 10px solid rgb(21, 137, 144);
     margin: 10px auto;
-    width: 90%;
+    width: 85%;
     height: 700px;
     color: white;
 }
@@ -68,11 +68,17 @@ article{
     margin: 10px 10px;
 }
 
-.textoarticulo{
-    margin: 0 2% 0 2%;
-    
+#noticiasarticuloinicio{
+    width: 90%;
+    text-align: center;
+    margin: auto;
 }
-
+.textoarticulo{
+    margin: 0 2% 0 2%;  
+}
+.textoarticuloinicio{
+    margin: 1% 1% 0 10%;  
+}
 #emulatorlist{
     width: 27%;
     
